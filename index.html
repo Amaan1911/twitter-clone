@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter clone</title>
+    <link rel="stylesheet" href="style.Css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- sidebar starts -->
+    <div class="sidebar">
+      <i class="fab fa-twitter"></i>
+      <div class="sidebarOption active">
+        <span class="material-symbols-outlined"> home </span>
+        <h2>Home</h2>
+      </div>
+      <div class="sidebarOption">
+        <span class="material-symbols-outlined"> search </span>
+        <h2>Explore</h2>
+      </div>
+      <div class="sidebarOption">
+        <span class="material-symbols-outlined"> notifications </span>
+        <h2>notifications</h2>
+      </div>
+      <div class="sidebarOption">
+        <span class="material-symbols-outlined"> mail </span>
+        <h2>Message</h2>
+      </div>
+      <div class="sidebarOption">
+        <span class="material-symbols-outlined"> bookmarks </span>
+        <h2>Saved</h2>
+      </div>
+      <div class="sidebarOption">
+        <span class="material-symbols-outlined"> lists </span>
+        <h2>Lists</h2>
+      </div>
+      <div class="sidebarOption">
+        <span class="material-symbols-outlined"> person </span>
+        <h2>Profle</h2>
+      </div>
+      <div class="sidebarOption">
+        <span class="material-symbols-outlined"> more_horiz </span>
+        <h2>More</h2>
+      </div>
+      <button class="sidebar__tweet">Tweet</button>
+    </div>
+    <!-- sidebar ends -->
+    <!-- feed starts -->
+    <div class="feed">
+      <div class="feed_header">
+        <h2>Home</h2>
+      </div>
+      <!-- tweet box starts -->
+      <div class="tweetbox">
+        <form>
+          <div class="tweetbox_input">
+            <img
+              src="https://images.pexels.com/photos/19120513/pexels-photo-19120513/free-photo-of-portrait-of-blonde-woman.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt=""
+            />
+            <input type="text" placeholder="What's Happening? " />
+          </div>
+          <button class="tweetbox_tweetbutton">Tweet</button>
+        </form>
+      </div>
+      <!-- tweet box ends -->
+      <!-- post starts  -->
+      <div class="post">
+        <div class="post_avatar">
+          <img
+            src="https://images.pexels.com/photos/19120513/pexels-photo-19120513/free-photo-of-portrait-of-blonde-woman.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="" />
+        </div> 
+        <div class="post_body">
+            <div class="post_header">
+                <div class="post_headerText">
+                    <h3>Amaan Sheikh
+                    <span class="post_headerSpecial">
+                        <span class="material-symbols-outlined po">
+                            verified
+                            </span>@amaan
+                    </span> 
+                    </h3>
+                </div>
+                <div class="post-headerDescription">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, repellendus.</p>
+                </div>
+            </div> 
+            <img src="https://images.pexels.com/photos/4195342/pexels-photo-4195342.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+            <div class="post_footer">
+                 <span class="material-symbols-outlined">
+                    repeat
+                    </span>
+                    <span class="material-symbols-outlined">
+                        favorite
+                        </span>
+                        <span class="material-symbols-outlined">
+                            share
+                            </span>
+
+            </div>
+      </div>
+      </div>
+      <div class="post">
+        <div class="post_avatar">
+          <img
+            src="https://images.pexels.com/photos/19120513/pexels-photo-19120513/free-photo-of-portrait-of-blonde-woman.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="" />
+        </div> 
+        <div class="post_body">
+            <div class="post_header">
+                <div class="post_headerText">
+                    <h3>Amaan Sheikh
+                    <span class="post_headerSpecial">
+                        <span class="material-symbols-outlined po">
+                            verified
+                            </span>@amaan
+                    </span> 
+                    </h3>
+                </div>
+                <div class="post-headerDescription">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, repellendus.</p>
+                </div>
+            </div> 
+            <img src="https://images.pexels.com/photos/4195342/pexels-photo-4195342.jpeg?auto=compress&cs=tinysrgb&w=400" alt="">
+            <div class="post_footer">
+                 <span class="material-symbols-outlined">
+                    repeat
+                    </span>
+                    <span class="material-symbols-outlined">
+                        favorite
+                        </span>
+                        <span class="material-symbols-outlined">
+                            share
+                            </span>
+
+            </div>
+      </div>
+      </div>
+      <!-- post ends  -->
+    </div>  
+    <!-- feed ends -->
+
+    <!-- widgets starts  -->
+    <div class="widgets">
+        <div class="widgets_input">
+            <span class="material-symbols-outlined search">
+                search
+                </span>
+                <input type="text" placeholder="Search twitter">
+        </div>
+        <div class="widgets_widgetcontainer">
+            <h2>What's Happening?</h2>
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">At dawn from the gateway to Mars, the launch of Starship’s second flight test <a href="https://t.co/ffKnsVKwG4">pic.twitter.com/ffKnsVKwG4</a></p>&mdash; SpaceX (@SpaceX) <a href="https://twitter.com/SpaceX/status/1732824684683784516?ref_src=twsrc%5Etfw">December 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+
+    <!-- widgets end  -->
+  </body>
+</html>
